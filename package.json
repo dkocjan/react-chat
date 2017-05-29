@@ -1,5 +1,5 @@
 {
-  "name": "chat",
+  "name": "react-chat",
   "version": "1.0.0",
   "description": "React chat using websockets",
   "repository": "https://github.com/dkocjan/react-chat.git",
