@@ -6,7 +6,7 @@ module.exports = {
   entry:     [ './index.js' ],
   output:    {
     filename:   'bundle.js',
-    path:       resolve(__dirname, 'src'),
+    path:       resolve(__dirname, 'public'),
     publicPath: '/'
   },
   devtool:   'inline-sourcemap',
@@ -17,7 +17,7 @@ module.exports = {
     hot: true,
     
     // Match the output path
-    contentBase: resolve(__dirname, 'src'),
+    contentBase: resolve(__dirname, 'public'),
     
     // Match the output 'publicPath'
     publicPath: '/'
