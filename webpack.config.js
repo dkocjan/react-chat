@@ -34,7 +34,7 @@ module.exports = {
             'es2015',
             'stage-0',
             'react',
-            'react-hmre'
+            //'react-hmre'
           ]
         }
       }
